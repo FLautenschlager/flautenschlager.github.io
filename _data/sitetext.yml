@@ -16,26 +16,26 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#services"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+#  services:
+#    title: "Services"
+#    text: "Lorem ipsum"
+#    section: services
+#    list:
+#      - title: "E-Commerce"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+#      - title: "Responsive Design"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#        icon: fas fa-laptop
+#      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#        desc: "Your description here, full **Markdown** support"
+#        icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+#  portfolio:
+#    title: "Portfolio"
+#    text: "Lorem ipsum dolor sit amet consectetur."
+#    section: portfolio
+#    closebutton: "Close Project"
 
   timeline:
     title: "About"
@@ -91,46 +91,45 @@ en: &DEFAULT_EN
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+  #team:
+  #  title: "OUR AMAZING TEAM"
+  #  text: "Lorem ipsum dolor sit amet consectetur."
+  #  subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  #  section: team
+  #  people:
+  #    - name: "Kay Garland"
+  #      role: "Lead Designer"
+  #      image: assets/img/team/500x500.jpg
+  #      social:
+  #        - url: https://twitter.com
+  #          icon: fab fa-twitter
+  #        - url: https://facebook.com
+  #          icon: fab fa-facebook-f
+  #        - url: https://linkedin.com
+  #          icon: fab fa-linkedin-in
+  #    - name: "Larry Parker"
+  #      role: "Lead Marketer"
+  #      image: assets/img/team/2.jpg
+  #      social:
+  #        - url: https://twitter.com
+  #          icon: fab fa-twitter
+  #        - url: https://facebook.com
+  #          icon: fab fa-facebook-f
+  #        - url: https://linkedin.com
+  #          icon: fab fa-linkedin-in
+  #    - name: "Diana Perterson"
+  #      role: "Lead Developer"
+  #      image: assets/img/team/500x500.jpg
+  #      social:
+  #        - url: https://twitter.com
+  #          icon: fab fa-twitter
+  #        - url: https://facebook.com
+  #          icon: fab fa-facebook-f
+  #        - url: https://linkedin.com
+  #          icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Me"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
