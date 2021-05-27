@@ -9,14 +9,14 @@
     </div>
     <div class="row">
 	{% for project in site.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
+      <div class="col-md-6 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="" style="height: 205px; width: 480px; object-fit: contain;">
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>

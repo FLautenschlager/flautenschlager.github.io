@@ -11,126 +11,121 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Welcome to my Homepage!
+    #text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
+    title: "Skills"
+    text: ""
+    section: skills
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Languages"
+        desc: "German - native <br> English - C1 <br> French - B1"
+        icon: fas fa-language #find more at https://fontawesome.com/icons
+      - title: "Programming Languages"
+        desc: "Python - Java - NodeJs - Go - SQL"
+        icon: fas fa-code
+      - title: "Python Packages"
+        desc: "Numpy - Pandas - Pytorch - SkLearn - Auto-SkLearn - Tensorflow"
+        icon: fab fa-python
+
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "My data science projects."
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
+  about:
     title: "About"
-    text: "Lorem ipsum timeline"
+    image: /assets/img/me.jpg
+    section: about
+    text: "I am a data scientist from Germany. Besides machine learning using IoT data I am collecting experience in time-series models and nlp. For more details check my publications and projects."
+
+  timeline:
+    title: "Timeline"
+    text: "My past occupations"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Searching for new challenges"
+        year: "Since 02/2021"
+        desc: "Self-education using Udemy courses, Kaggle challenges."
+        image: assets/img/timeline/calanques.jpg
+      - title: "Research Scientist"
+        year: "11/2016 - 01/2021"
+        desc: "at the University of Würzburg/Germany, chair for data science."
+        image: assets/img/timeline/lsx.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "M.Sc. Meteorology"
+        year: "09/2014 - 20/2016"
+        desc: "Goethe-University Frankfurt/Germany"
+        image: assets/img/timeline/gu.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Erasmus Semester"
+        year: "09/2014 - 01/2015"
+        desc: "Université Joseph Fourier Grenoble/France"
+        image: assets/img/timeline/ujp.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "B.Sc. Meteorology"
+        year: "09/2011 - 07/2014"
+        desc: "Goethe-University Frankfurt/Germany"
+        image: assets/img/timeline/gu.jpg
         alt:
         # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+        #align: right
+    end: "Be Part <br> of My <br> Story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  pubs:
+    title: Publications
+    text: My scientific publications
+    section: publications
+    pubs:
+      - title: "Evaluating the multi-task learning approach for land use regression modelling of air pollution"
+        authors: "Dulny, Andrzej; Steininger, Michael; Lautenschlager, Florian; Krause, Anna; Hotho, Andreas"
+        journal: "Journal of Physics: Conference Series"
+        year: "2021"
+        url: /assets/publications/evaluating.pdf
+      - title: "MapLUR: Exploring a New Paradigm for Estimating Air Pollution Using Deep Learning on Map Images"
+        authors: "Steininger, Michael; Kobs, Konstantin; Zehe, Albin; Lautenschlager, Florian; Becker, Martin; Hotho, Andreas"
+        year: "2020"
+        journal: "ACM Trans. Spatial Algorithms Syst."
+        url: /assets/publications/maplur.pdf
+      - title: "OpenLUR: Off-the-shelf air pollution modeling with open features and machine learning"
+        authors: "Lautenschlager, Florian; Becker, Martin; Kobs, Konstantin; Steininger, Michael; Davidson, Padraig; Krause, Anna; Hotho, Andreas"
+        journal: "Atmospheric Environment"
+        year: "2020"
+        url: /assets/publications/openlur.pdf
+      - title: "SimLoss: Class Similarities in Cross Entropy"
+        authors: "Kobs, Konstantin; Steininger, Michael; Zehe, Albin; Lautenschlager, Florian; Hotho, Andreas"
+        journal: "International Symposium on Methodologies for Intelligent Systems"
+        year: "2020"
+        url: /assets/publications/simloss.pdf
+      - title: "Anomaly Detection in Beehives using Deep Recurrent Autoencoders"
+        authors: "Davidson, Padraig; Steininger, Michael; Lautenschlager, Florian; Kobs, Konstantin; Krause, Anna; Hotho, Andreas"
+        journal: "arXiv preprint arXiv:2003.04576"
+        year: "2020"
+        url: /assets/publications/beehavior.pdf
+      - title: "EveryAware Gears: A Tool to visualize and analyze all types of Citizen Science Data"
+        authors: "Lautenschlager, Florian; Becker, Martin; Steininger, Michael; Hotho, Andreas"
+        journal: "SemGeoSoc Workshop"
+        year: "2018"
+        url: /assets/publications/gears.pdf
+      - title: "Air Trails--Urban Air Quality Campaign Exploration Patterns"
+        authors: "Becker, Martin; Lautenschlager, Florian; Hotho, Andreas"
+        journal: "AGILE Workshop"
+        year: "2018"
+        url: /assets/publications/airtrails.pdf
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Me"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -146,16 +141,18 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/florian-lautenschlager/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://www.xing.com/profile/Florian_Lautenschlager7/cv
+        icon: "fab, fa-xing"
+      - url: https://github.com/FLautenschlager
         icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.kaggle.com/lautenschlager
+        icon: "fab fa-kaggle"
+      - url: https://www.instagram.com/flolauti/
         icon: "fab fa-instagram"
+      #- url: https://twitter.com/lautenschlagerf
+      #  icon: "fab fa-twitter"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -165,156 +162,3 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
