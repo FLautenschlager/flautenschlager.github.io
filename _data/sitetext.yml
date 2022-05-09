@@ -51,9 +51,9 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Searching for new challenges"
-        year: "Since 02/2021"
-        desc: "Self-education using Udemy courses, Kaggle challenges."
+      - title: "Data Scientist"
+        year: "Since 08/2021"
+        desc: "at DPS Innovations GmbH"
         image: assets/img/timeline/calanques.jpg
       - title: "Research Scientist"
         year: "11/2016 - 01/2021"
