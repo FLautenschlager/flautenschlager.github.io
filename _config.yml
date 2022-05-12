@@ -25,6 +25,7 @@ logo:     #optional, defaults to site title
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
+future: true
 
 analytics:
   google: #Google Analytics tracking code here
