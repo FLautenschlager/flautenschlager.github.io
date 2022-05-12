@@ -46,7 +46,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "My past occupations"
+    text: "My background"
     section: timeline
     # left is the default
     #start_align: "left"
